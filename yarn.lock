@@ -1042,6 +1042,13 @@
   dependencies:
     tslib "^2.1.0"
 
+"@formatjs/ecma402-abstract@1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@formatjs/ecma402-abstract/-/ecma402-abstract-1.9.3.tgz#00892014c805935b5b1345d238246e9bf3a2de50"
+  integrity sha512-DBrRUL65m4SVtfq+T4Qltd8+upAzfb9K1MX0UZ0hqQ0wpBY0PSIti9XJe0ZQ/j2v/KxpwQ0Jw5NLumKVezJFQg==
+  dependencies:
+    tslib "^2.1.0"
+
 "@formatjs/icu-messageformat-parser@1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-1.1.4.tgz#75ee0cbb9289cf456929b78a2bbbcd43b5fa0da4"
@@ -1051,12 +1058,29 @@
     "@formatjs/icu-skeleton-parser" "1.1.1"
     tslib "^2.1.0"
 
+"@formatjs/icu-messageformat-parser@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-2.0.6.tgz#7471c2116982f07b3d9b80e4572a870f20adbaf6"
+  integrity sha512-dgOZ2kq3sbjjC4P0IIghXFUiGY+x9yyypBJF9YFACjw8gPq/OSPmOzdMGvjY9hl4EeeIhhsDd4LIAN/3zHG99A==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.9.3"
+    "@formatjs/icu-skeleton-parser" "1.2.7"
+    tslib "^2.1.0"
+
 "@formatjs/icu-skeleton-parser@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-1.1.1.tgz#b2c39a7817816d68d31272947dded970f6d1d1c7"
   integrity sha512-hkRJhjr9G0IE730Kxwq65+rz/2fdCckSJTPrKmViMxLNtRmIt6Hx67tffElr9/QSlpzGlXw9XAMdFOa1ylRrJQ==
   dependencies:
     "@formatjs/ecma402-abstract" "1.6.4"
+    tslib "^2.1.0"
+
+"@formatjs/icu-skeleton-parser@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-1.2.7.tgz#a74954695c37470efdeff828799654088e567c34"
+  integrity sha512-xm1rJMOz4fwVfWH98VKtbTpZvyQ45plHilkCF16Nm6bAgosYC/IcMmgJisGr6uHqb5TvJRXE07+EvnkIIQjsdA==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.9.3"
     tslib "^2.1.0"
 
 "@formatjs/intl-displaynames@4.0.12":
@@ -1096,6 +1120,14 @@
     "@formatjs/icu-messageformat-parser" "1.1.4"
     tslib "^2.1.0"
     typescript "^4.0"
+
+"@formatjs/ts-transformer@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@formatjs/ts-transformer/-/ts-transformer-3.4.3.tgz#bc2397bd380fb3abc6be94a709d452e37ed3a9c0"
+  integrity sha512-CmsE+0rpGucWfK/cdVJ4oUfO7LbFJflGwJ6/U122wZhxRs59xcThUIRBBX7HU7Hx1BhtPa3LSW9QJc41D73tpQ==
+  dependencies:
+    "@formatjs/icu-messageformat-parser" "2.0.6"
+    tslib "^2.1.0"
 
 "@giphy/js-analytics@^3.0.0":
   version "3.0.0"
@@ -2598,18 +2630,18 @@ babel-plugin-emotion@^10.0.27:
     find-root "^1.1.0"
     source-map "^0.5.7"
 
-babel-plugin-formatjs@^10.2.6:
-  version "10.2.6"
-  resolved "https://registry.yarnpkg.com/babel-plugin-formatjs/-/babel-plugin-formatjs-10.2.6.tgz#3aee4aceabfc94cee6bdac80f1f60289eff6133d"
-  integrity sha512-PjnHAXlqtLeI8Ct6S2aFiawAmLFyIBJBE65IH6GzMWiLAI74T+Vg9ftZP3mA42j5R0Uo7xRAXhWvDIfkY4ND+g==
+babel-plugin-formatjs@^10.2.15:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-formatjs/-/babel-plugin-formatjs-10.3.0.tgz#e8e706d17b713cc55ee1f6edfbbc15022a88d452"
+  integrity sha512-vDvXgAMrNO+3Hi4ZLLeQQdfayshWaXOysGW0Z/DLnFmJx8tpjv/HBJxqYQuoieitNOeYVJKqdk45JPf6rlkxtA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-jsx" "7"
     "@babel/traverse" "7"
     "@babel/types" "^7.9.5"
-    "@formatjs/icu-messageformat-parser" "1.1.4"
-    "@formatjs/ts-transformer" "3.3.6"
+    "@formatjs/icu-messageformat-parser" "2.0.6"
+    "@formatjs/ts-transformer" "3.4.3"
     "@types/babel__core" "^7.1.7"
     "@types/babel__helper-plugin-utils" "7"
     tslib "^2.1.0"
