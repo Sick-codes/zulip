@@ -260,7 +260,7 @@ python-dateutil==2.8.1 \
     # via
     #   botocore
     #   tc-aws
-python-ldap==3.3.1 \
+python-ldap==3.4.0 \
     --hash=sha256:4711cacf013e298754abd70058ccc995758177fb425f1c2d30e71adfc1d00aa5
     # via django-auth-ldap
 pytz==2019.3 \
