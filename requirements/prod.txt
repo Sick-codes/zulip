@@ -1081,3 +1081,4 @@ setuptools==56.0.0 \
     # via
     #   ipython
     #   jsonschema
+django>=2.2.25 # not directly required, pinned by Snyk to avoid a vulnerability
