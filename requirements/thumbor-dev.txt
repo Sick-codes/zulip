@@ -148,7 +148,7 @@ multidict==5.1.0 \
     # via
     #   aiohttp
     #   yarl
-numpy==1.19.5 \
+numpy==1.22.0rc1 \
     --hash=sha256:012426a41bc9ab63bb158635aecccc7610e3eff5d31d1eb43bc099debc979d94 \
     --hash=sha256:06fab248a088e439402141ea04f0fffb203723148f6ee791e9c75b3e9e82f080 \
     --hash=sha256:0eef32ca3132a48e43f6a0f5a82cb508f22ce5a3d6f67a8329c81c8e226d3f6e \
