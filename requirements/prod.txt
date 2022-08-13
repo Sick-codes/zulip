@@ -233,7 +233,7 @@ django-phonenumber-field==5.1.0 \
     --hash=sha256:48724ba235ee8248a474204faa0934c5baf9536f429859d05cb131fbd6b1c695 \
     --hash=sha256:9eda963ac15b363393f677cc084efd45c3bd97bb5a0cdb4a06409ac99e05dd4b
     # via django-two-factor-auth
-django-sendfile2==0.6.0 \
+django-sendfile2==0.7.0 \
     --hash=sha256:7f850040ddc29c9c42192ed85b915465a3ed7cced916c4fafdd5eda057dd06ec
     # via -r requirements/common.in
 django-statsd-mozilla==0.4.0 \
