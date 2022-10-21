@@ -211,7 +211,7 @@ opencv-python-headless==4.5.1.48 \
     --hash=sha256:f7f8e4f7c63c8e95eb210f4cba88d0069a0a964d6335d7a35b07f0d0baa13558 \
     --hash=sha256:fe02a943b1a28b505e954fbce24e867119a3eb4351f93adad55c6cfe81a70484
     # via thumbor
-pillow==7.2.0 \
+pillow==9.0.1 \
     --hash=sha256:0295442429645fa16d05bd567ef5cff178482439c9aad0411d3f0ce9b88b3a6f \
     --hash=sha256:06aba4169e78c439d528fdeb34762c3b61a70813527a2c57f0540541e9f433a8 \
     --hash=sha256:09d7f9e64289cb40c2c8d7ad674b2ed6105f55dc3b09aa8e4918e20a0311e7ad \
