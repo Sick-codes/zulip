@@ -256,7 +256,7 @@ django[argon2]==3.1.8 \
     #   django-phonenumber-field
     #   django-sendfile2
     #   django-two-factor-auth
-future==0.18.2 \
+future==0.18.3 \
     --hash=sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d
     # via python-twitter
 h2==2.6.2 \
