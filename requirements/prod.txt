@@ -987,7 +987,7 @@ tlds==2021041302 \
     --hash=sha256:574014e35226fc8873c236f829a7299e5591248ede30fc3c31f3cdde36668f37 \
     --hash=sha256:91303c5877f293edfb464df870cf1e8ed94c03ee0796d969e7284acb67501740
     # via -r requirements/common.in
-tornado==4.5.3 \
+tornado==6.3.3 \
     --hash=sha256:5ef073ac6180038ccf99411fe05ae9aafb675952a2c8db60592d5daf8401f803 \
     --hash=sha256:6d14e47eab0e15799cf3cdcc86b0b98279da68522caace2bd7ce644287685f0a \
     --hash=sha256:92b7ca81e18ba9ec3031a7ee73d4577ac21d41a0c9b775a9182f43301c3b5f8e \
@@ -1035,7 +1035,7 @@ webencodings==0.5.1 \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
     # via html5lib
-werkzeug==1.0.1 \
+werkzeug==3.0.1 \
     --hash=sha256:2de2a5db0baeae7b2d2664949077c2ac63fbd16d98da0ff71837f7d1dea3fd43 \
     --hash=sha256:6c80b1e5ad3665290ea39320b91e1be1e0d5f60652b964a3070216de83d2e47c
     # via openapi-core
