@@ -84,7 +84,7 @@ django-auth-ldap==2.4.0 \
     --hash=sha256:2d869955da8a0c9a4448671bd9826b9f87458f6a9fc20278e84de8a81200a2be \
     --hash=sha256:60fcbfc3141c99c3c49d3ccd7311a3992a231c319d94b6d2c143968f63676676
     # via -r requirements/thumbor.in
-django==3.1.8 \
+django==3.2.23 \
     --hash=sha256:c348b3ddc452bf4b62361f0752f71a339140c777ebea3cdaaaa8fdb7f417a862 \
     --hash=sha256:f8393103e15ec2d2d313ccbb95a3f1da092f9f58d74ac1c61ca2ac0436ae1eac
     # via
@@ -211,7 +211,7 @@ opencv-python-headless==4.5.1.48 \
     --hash=sha256:f7f8e4f7c63c8e95eb210f4cba88d0069a0a964d6335d7a35b07f0d0baa13558 \
     --hash=sha256:fe02a943b1a28b505e954fbce24e867119a3eb4351f93adad55c6cfe81a70484
     # via thumbor
-pillow==7.2.0 \
+pillow==10.0.0 \
     --hash=sha256:0295442429645fa16d05bd567ef5cff178482439c9aad0411d3f0ce9b88b3a6f \
     --hash=sha256:06aba4169e78c439d528fdeb34762c3b61a70813527a2c57f0540541e9f433a8 \
     --hash=sha256:09d7f9e64289cb40c2c8d7ad674b2ed6105f55dc3b09aa8e4918e20a0311e7ad \
@@ -292,7 +292,7 @@ thumbor==7.0.0a5 \
     # via
     #   -r requirements/thumbor.in
     #   tc-aws
-tornado==6.1 \
+tornado==6.3.3 \
     --hash=sha256:0a00ff4561e2929a2c37ce706cb8233b7907e0cdc22eab98888aca5dd3775feb \
     --hash=sha256:0d321a39c36e5f2c4ff12b4ed58d41390460f798422c4504e09eb5678e09998c \
     --hash=sha256:1e8225a1070cd8eec59a996c43229fe8f95689cb16e552d130b9793cb570a288 \
