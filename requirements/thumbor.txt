@@ -7,7 +7,7 @@
 #
 # For details, see requirements/README.md .
 #
-aiobotocore==1.3.0 \
+aiobotocore==2.9.1 \
     --hash=sha256:81890d270b1f948ffd218e8bab11e235bea272840ea8b1b9e0aef1954c6cec9e
     # via tc-aws
 aiohttp==3.7.4.post0 \
