@@ -6,7 +6,7 @@
   "private": true,
   "main": "",
   "dependencies": {
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.26.10",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-typescript": "^7.3.3",
@@ -36,7 +36,7 @@
     "emoji-datasource-google-blob": "npm:emoji-datasource-google@^3.0.0",
     "emoji-datasource-twitter": "^6.0.0",
     "error-stack-parser": "^2.0.2",
-    "eslint-plugin-unicorn": "^29.0.0",
+    "eslint-plugin-unicorn": "^40.0.0",
     "expose-loader": "^1.0.0",
     "file-loader": "^6.0.0",
     "flatpickr": "^4.5.7",
