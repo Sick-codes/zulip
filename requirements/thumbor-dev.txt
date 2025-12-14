@@ -292,7 +292,7 @@ thumbor==7.0.0a5 \
     # via
     #   -r requirements/thumbor.in
     #   tc-aws
-tornado==6.1 \
+tornado==6.5.3 \
     --hash=sha256:0a00ff4561e2929a2c37ce706cb8233b7907e0cdc22eab98888aca5dd3775feb \
     --hash=sha256:0d321a39c36e5f2c4ff12b4ed58d41390460f798422c4504e09eb5678e09998c \
     --hash=sha256:1e8225a1070cd8eec59a996c43229fe8f95689cb16e552d130b9793cb570a288 \
@@ -344,7 +344,7 @@ typing-extensions==3.7.4.3 \
     #   aioitertools
     #   asgiref
     #   yarl
-urllib3==1.26.4 \
+urllib3==2.6.0 \
     --hash=sha256:2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df \
     --hash=sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937
     # via botocore
